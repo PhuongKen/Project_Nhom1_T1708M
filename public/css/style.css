@@ -1206,18 +1206,19 @@ lesshat-selector {
   position: fixed;
   -webkit-box-shadow: 1px 0 3px 0 rgba(0,0,0,0.2);
   box-shadow: 1px 0 3px 0 rgba(0,0,0,0.2);
+  height: 25px;
 }
 .topbar .topbar-left {
   float: left;
-  height: 70px;
   position: relative;
   z-index: 1;
   width: 240px;
   background: #317eeb;
+  height: 25px;
 }
 .logo h1 {
   margin: 0px auto;
-  height: 50px;
+  height: 25px;
   text-align: center;
 }
 .navbar-default {
@@ -1226,10 +1227,11 @@ lesshat-selector {
   background-color: #317eeb;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border-radius: 0px;
+  height: 25px;
 }
 .nav > li > a {
   padding: 0px 15px;
-  line-height: 70px;
+  line-height: 50px;
   color: #ffffff !important;
   position: relative;
 }
@@ -1284,7 +1286,7 @@ lesshat-selector {
   border: none !important;
   color: #fff;
   box-shadow: none !important;
-  height: 50px;
+  height: 25px;
   font-size: 16px;
   margin-top: 3px;
 }
@@ -1309,10 +1311,10 @@ input.search-bar:-ms-input-placeholder {
   color: #fff !important;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 70px;
+  line-height: 50px;
 }
 .logo i {
-  font-size: 30px;
+  font-size: 23px;
   margin-right: 5px;
   color: #ee6e73;
 }
@@ -1332,10 +1334,10 @@ input.search-bar:-ms-input-placeholder {
   background: #ffffff;
   position: absolute;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  top: 70px;
+  top: 50px;
 }
 body.fixed-left .side-menu.left {
-  margin-top: 0px;
+  margin-top: -20px;
   position: fixed;
   height: 100%;
   bottom: 50px;
@@ -1349,7 +1351,7 @@ body.fixed-left .side-menu.left {
   min-height: 940px;
 }
 .content-page > .content {
-  margin-top: 70px;
+  margin-top: 40px;
   margin-bottom: 60px;
   padding: 20px 5px 15px 5px;
   position: relative;
@@ -1359,7 +1361,7 @@ body.fixed-left .side-menu.left {
   background: transparent;
   color: #888;
   border: none;
-  line-height: 70px;
+  line-height: 50px;
   color: #fff;
   padding: 0px 15px;
 }
@@ -1542,13 +1544,12 @@ body.fixed-left .side-menu.left {
 #wrapper.enlarged .left.side-menu .user-details {
   display: none;
 }
-#wrapper.enlarged .left.side-menu {
-  padding-top: 80px;
-}
+
 .user-details {
   position: relative;
   min-height: 80px;
   padding: 20px;
+  margin-top: 20px;
 }
 .user-details img {
   position: relative;

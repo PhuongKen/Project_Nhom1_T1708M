@@ -13,7 +13,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('layout.admin-master');
+        return view('admin.chart');
     }
 
     /**

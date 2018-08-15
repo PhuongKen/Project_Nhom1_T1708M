@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,27 +12,23 @@
     <title>Moltran - Responsive Admin Dashboard Template</title>
 
     <!-- Base Css Files -->
-    <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet"/>
+    <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet" />
 
     <!-- Font Icons -->
-
-    <link href="{{asset('css/admin/assets/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet"/>
-    <link href="{{asset('css/admin/assets/ionicon/css/ionicons.min.css')}}"/>
-    <link href="{{asset('css/admin/css/material-design-iconic-font.min.css')}}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <!-- animate css -->
 
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link href="{{asset('css/animate.css')}}" rel="stylesheet"/>
+    <link href="{{asset('css/animate.css')}}" rel="stylesheet" />
     <!-- Waves-effect -->
 
     <link href="{{asset('css/waves-effect.css')}}" rel="stylesheet">
 
     <!-- Custom Files -->
 
-    <link href="{{asset('css/helper.css')}}" rel="stylesheet" type="text/css"/>
-    <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{asset('css/helper.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css" />
+
+
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -42,7 +39,9 @@
     <![endif]-->
 
 
+
 </head>
+
 
 
 <body class="fixed-left">
@@ -55,13 +54,13 @@
         <!-- LOGO -->
         <div class="topbar-left">
             <div class="text-center">
-                <a href="index.html" class="logo"><i class="md md-terrain"></i> <span>Moltran </span></a>
+                <a href="index.html" class="logo"><i class="fas fa-home"></i> <span>Foody</span></a>
             </div>
         </div>
         <!-- Button mobile view to collapse sidebar menu -->
         <div class="navbar navbar-default" role="navigation">
             <div class="container">
-                <div class="">
+                <div>
                     <div class="pull-left">
                         <button class="button-menu-mobile open-left">
                             <i class="fa fa-bars"></i>
@@ -77,8 +76,7 @@
 
                     <ul class="nav navbar-nav navbar-right pull-right">
                         <li class="dropdown hidden-xs">
-                            <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light"
-                               data-toggle="dropdown" aria-expanded="true">
+                            <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="true">
                                 <i class="md md-notifications"></i> <span class="badge badge-xs badge-danger">3</span>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-lg">
@@ -122,8 +120,7 @@
                                                 <div class="media-heading">Updates</div>
                                                 <p class="m-0">
                                                     <small>There are
-                                                        <span class="text-primary">2</span> new updates available
-                                                    </small>
+                                                        <span class="text-primary">2</span> new updates available</small>
                                                 </p>
                                             </div>
                                         </div>
@@ -136,15 +133,13 @@
                             </ul>
                         </li>
                         <li class="hidden-xs">
-                            <a href="#" id="btn-fullscreen" class="waves-effect waves-light"><i
-                                        class="md md-crop-free"></i></a>
+                            <a href="#" id="btn-fullscreen" class="waves-effect waves-light"><i class="md md-crop-free"></i></a>
                         </li>
                         <li class="hidden-xs">
                             <a href="#" class="right-bar-toggle waves-effect waves-light"><i class="md md-chat"></i></a>
                         </li>
                         <li class="dropdown">
-                            <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img
-                                        src="images/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
+                            <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img src="http://thuthuat123.com/uploads/2018/01/27/anh-dai-dien-dep-nhat-39_093007.jpg" alt="user-img" class="img-circle"> </a>
                             <ul class="dropdown-menu">
                                 <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile</a></li>
                                 <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
@@ -167,16 +162,13 @@
         <div class="sidebar-inner slimscrollleft">
             <div class="user-details">
                 <div class="pull-left">
-                    <img src="images/users/avatar-1.jpg" alt="" class="thumb-md img-circle">
+                    <img src="http://thuthuat123.com/uploads/2018/01/27/anh-dai-dien-dep-nhat-39_093007.jpg" alt="" class="thumb-md img-circle">
                 </div>
                 <div class="user-info">
                     <div class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">John Doe <span
-                                    class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">John Doe <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile
-                                    <div class="ripple-wrapper"></div>
-                                </a></li>
+                            <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile<div class="ripple-wrapper"></div></a></li>
                             <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
                             <li><a href="javascript:void(0)"><i class="md md-lock"></i> Lock screen</a></li>
                             <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> Logout</a></li>
@@ -189,25 +181,32 @@
             <!--- Divider -->
             <div id="sidebar-menu">
                 <ul>
+                    <!--- Dashboard -->
+                    <li>
+                        <a href="/admin" class="waves-effect"><i class="fas fa-chart-pie"></i></i><span> Chart </span></a>
+                    </li>
                     <!--- user -->
                     <li>
-                        <a href="" class="waves-effect"><i class="fas fa-user"></i><span> User </span></a>
+                        <a href="/user" class="waves-effect"><i class="fas fa-user"></i><span> User </span></a>
                     </li>
                     <!--- Category -->
                     <li>
-                        <a href="" class="waves-effect"><i class="fas fa-sitemap"></i><span> Category </span></a>
+                        <a href="/category" class="waves-effect"><i class="fas fa-sitemap"></i><span> Category </span></a>
                     </li>
                     <!--- Restaurant -->
                     <li>
-                        <a href="" class="waves-effect"><i class="fas fa-hotel"></i><span> Restaurant </span></a>
+                        <a href="/restaurant" class="waves-effect"><i class="fas fa-hotel"></i><span> Restaurant </span></a>
                     </li>
                     <!--- dish -->
                     <li>
-                        <a href="" class="waves-effect"><i class="fas fa-utensils"></i><span> Dish </span></a>
+                        <a href="/dish" class="waves-effect"><i class="fas fa-utensils"></i><span> Dish </span></a>
                     </li>
                     <!--- order -->
                     <li>
-                        <a href="" class="waves-effect"><i class="fas fa-shopping-basket"></i><span> Order </span></a>
+                        <a href="/order" class="waves-effect"><i class="fas fa-shopping-basket"></i><span> Order </span></a>
+                    </li>
+                    <li>
+                        <a href="/image" class="waves-effect"><i class="fas fa-images"></i><span> Image </span></a>
                     </li>
                 </ul>
                 <div class="clearfix"></div>
@@ -218,6 +217,7 @@
     <!-- Left Sidebar End -->
 
 
+
     <!-- ============================================================== -->
     <!-- Start right Content here -->
     <!-- ============================================================== -->
@@ -225,94 +225,8 @@
         <!-- Start content -->
         <div class="content">
             <div class="container">
-
-                <!-- Page-Title -->
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h4 class="pull-left page-title">Chartjs</h4>
-                        <ol class="breadcrumb pull-right">
-                            <li><a href="#">Moltran</a></li>
-                            <li><a href="#">Charts</a></li>
-                            <li class="active">Chartjs</li>
-                        </ol>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="panel panel-border panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Line Chart</h3>
-                            </div>
-                            <div class="panel-body">
-                                <canvas id="lineChart" data-type="Line" width="520" height="250"></canvas>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="panel panel-border panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Bar chart</h3>
-                            </div>
-                            <div class="panel-body">
-                                <canvas id="bar" data-type="Bar" height="250" width="800"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="panel panel-border panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Pie chart</h3>
-                            </div>
-                            <div class="panel-body">
-                                <canvas id="pie" data-type="Pie" height="300" width="800"></canvas>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="panel panel-border panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Radar chart</h3>
-                            </div>
-                            <div class="panel-body">
-                                <canvas id="radar" data-type="Radar" width="300" height="300"></canvas>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="panel panel-border panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Donut chart</h3>
-                            </div>
-                            <div class="panel-body">
-                                <canvas id="doughnut" data-type="Doughnut" height="250" width="800"></canvas>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="panel panel-border panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Polar area chart</h3>
-                            </div>
-                            <div class="panel-body">
-                                <canvas id="polarArea" data-type="PolarArea" width="300" height="250"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+                @section('content')
+                @show
             </div> <!-- container -->
 
         </div> <!-- content -->
@@ -440,27 +354,30 @@
 
 </div>
 <!-- END wrapper -->
-<script type="text/javascript" src="{{ asset('js/wow.min.js') }}"></script>
+<script>
+    var resizefunc = [];
+</script>
+
+<!-- jQuery  -->
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/waves.js')}}"></script>
+<script src="{{asset('js/wow.min.js')}}"></script>
 <script src="{{asset('js/jquery.nicescroll.js')}}" type="text/javascript"></script>
+<script src="{{asset('js/jquery.scrollTo.min.js')}}"></script>
+<script src="{{asset('js/detect.js')}}"></script>
+<script src="{{asset('js/fastclick.js')}}"></script>
+<script src="{{asset('js/jquery.slimscroll.js')}}"></script>
+<script src="{{asset('js/jquery.blockUI.js')}}"></script>
 
-<script src="{{asset('js/jquery.scrollTo.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('js/detect.js')}}" type="text/javascript"></script>
-<script src="{{asset('js/fastclick.js')}}" type="text/javascript"></script>
 
-<script src="{{asset('js/jquery.blockUI.js')}}" type="text/javascript"></script>
+<!-- CUSTOM JS -->
+<script src="{{asset('js/jquery.app.js')}}"></script>
 
-<script src="{{asset('js/jquery.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('js/bootstrap.min.js')}}" type="text/javascript"></script>
+<!-- Chart JS -->
+<script src="{{asset('js/chart.min.js')}}"></script>
+<script src="{{asset('js/chartjs.init.js')}}"></script>
 
-<script src="{{asset('js/app.js')}}" type="text/javascript"></script>
 
-<script src="{{asset('js/modernizr.min.js')}}" type="text/javascript"></script>
-
-<script src="{{asset('js/jquery.app.js')}}" type="text/javascript"></script>
-
-<script src="{{asset('js/chart.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('js/chartjs.init.js')}}" type="text/javascript"></script>
-
-<script src="{{asset('js/jquery.slimscroll.min.js')}}" type="text/javascript"></script>
 </body>
 </html>
