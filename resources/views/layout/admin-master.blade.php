@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
-
+    <title>{{$page_title}}</title>
     <link rel="shortcut icon" href="images/favicon_1.ico">
 
     <title>Moltran - Responsive Admin Dashboard Template</title>
@@ -27,7 +27,7 @@
 
     <link href="{{asset('css/helper.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css" />
-
+    <link href="{{asset('css/restaurant.css')}}" rel="stylesheet">
 
 
 
@@ -183,30 +183,30 @@
                 <ul>
                     <!--- Dashboard -->
                     <li>
-                        <a href="/admin" class="waves-effect"><i class="fas fa-chart-pie"></i></i><span> Chart </span></a>
+                        <a href="/admin/home" class="waves-effect"><i class="fas fa-chart-pie"></i></i><span> Chart </span></a>
                     </li>
                     <!--- user -->
                     <li>
-                        <a href="/user" class="waves-effect"><i class="fas fa-user"></i><span> User </span></a>
+                        <a href="/admin/user" class="waves-effect"><i class="fas fa-user"></i><span> User </span></a>
                     </li>
                     <!--- Category -->
                     <li>
-                        <a href="/category" class="waves-effect"><i class="fas fa-sitemap"></i><span> Category </span></a>
+                        <a href="/admin/category" class="waves-effect"><i class="fas fa-sitemap"></i><span> Category </span></a>
                     </li>
                     <!--- Restaurant -->
                     <li>
-                        <a href="/restaurant" class="waves-effect"><i class="fas fa-hotel"></i><span> Restaurant </span></a>
+                        <a href="/admin/restaurant" class="waves-effect"><i class="fas fa-hotel"></i><span> Restaurant </span></a>
                     </li>
                     <!--- dish -->
                     <li>
-                        <a href="/dish" class="waves-effect"><i class="fas fa-utensils"></i><span> Dish </span></a>
+                        <a href="/admin/dish" class="waves-effect"><i class="fas fa-utensils"></i><span> Dish </span></a>
                     </li>
                     <!--- order -->
                     <li>
-                        <a href="/order" class="waves-effect"><i class="fas fa-shopping-basket"></i><span> Order </span></a>
+                        <a href="/admin/order" class="waves-effect"><i class="fas fa-shopping-basket"></i><span> Order </span></a>
                     </li>
                     <li>
-                        <a href="/image" class="waves-effect"><i class="fas fa-images"></i><span> Image </span></a>
+                        <a href="/admin/image" class="waves-effect"><i class="fas fa-images"></i><span> Image </span></a>
                     </li>
                 </ul>
                 <div class="clearfix"></div>
