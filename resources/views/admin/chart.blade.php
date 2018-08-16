@@ -1,4 +1,4 @@
-@extends('layout.admin-master')
+@extends('layout.admin-master',['page_title'=>'Chart'])
 @section('content')
     <!-- Page-Title -->
     <div class="row">
