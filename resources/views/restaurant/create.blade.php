@@ -3,7 +3,7 @@
     <link href="{{asset('css/fileinput.min.css')}}" rel="stylesheet" type="text/css"/>
 @endsection
 @section('content')
-    <form action="/admin/restaurant" method="post">
+    <form action="/admin/restaurant" method="post" enctype="multipart/form-data>
         {{csrf_field()}}
         <div class="row">
             <div class="col-md-10">
@@ -24,6 +24,20 @@
                 <div class="panel panel-default">
                     <div class="panel-body"><h4 style="color: #333333">Add restaurant</h4></div>
                     <div class="panel-body">
+
+                        @if ($errors->any())
+                            <div class="alert alert-danger alert-dismissible" role="alert">
+                                <ul>
+                                    @foreach($errors->all() as $error)
+                                        <li>{{$error}}</li>
+                                    @endforeach
+                                </ul>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    <span class="sr-only">Close</span>
+                                </button>
+                            </div>
+                        @endif
                         <div class="form-group">
                             <label><h5>Danh mục:</h5></label>
                             <select name="category">
@@ -40,7 +54,7 @@
                             <label>Ảnh đại diện:</label>
                             <div class="kv-avatar">
                                 <div class="file-loading">
-                                    <input id="product_image" name="avartar" type="file">
+                                    <input id="product_image"  type="file" name="avartar">
                                 </div>
                             </div>
                         </div>
