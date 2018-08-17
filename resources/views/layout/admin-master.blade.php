@@ -28,8 +28,10 @@
     <link href="{{asset('css/helper.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/restaurant.css')}}" rel="stylesheet">
-
-
+    <link href="{{asset('css/jquery.dataTables.min.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-wysihtml5.css')}}" />
+    @section('css')
+    @show
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,6 +40,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
+    <script src="{{asset('js/modernizr.min.js')}}"></script>
 
 
 </head>
@@ -166,7 +169,7 @@
                 </div>
                 <div class="user-info">
                     <div class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">John Doe <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Phuong Ken<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile<div class="ripple-wrapper"></div></a></li>
                             <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
@@ -351,7 +354,6 @@
     </div>
     <!-- /Right-bar -->
 
-
 </div>
 <!-- END wrapper -->
 <script>
@@ -377,7 +379,17 @@
 <!-- Chart JS -->
 <script src="{{asset('js/chart.min.js')}}"></script>
 <script src="{{asset('js/chartjs.init.js')}}"></script>
-
-
+<!-- Table-->
+<script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
+<script src="{{asset('js/dataTables.bootstrap.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/wysihtml5-0.3.0.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/bootstrap-wysihtml5.js')}}"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#datatable').dataTable();
+        $('.wysihtml5').wysihtml5();
+    });
+</script>
+@yield('script')
 </body>
 </html>
