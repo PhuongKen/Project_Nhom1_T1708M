@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 Route::resource('/admin/home','AdminController');
 Route::resource('/admin/restaurant','RestaurantController');
+Route::resource('/admin/district','DistrictController');
+Route::resource('/admin/ward','WardController');
